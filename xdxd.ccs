@@ -1,0 +1,14 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Fondo de Página</title>
+    <style>
+      body {
+        background-color: lightblue; /* O usa un nombre de color o código hexadecimal */
+      }
+    </style>
+    </head>
+    <body>
+      <h1>Contenido de mi página</h1>
+    </body>
+    </html>
