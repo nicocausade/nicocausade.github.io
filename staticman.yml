@@ -1,11 +1,11 @@
-comments:
+hcomments:
   allowedFields: ["name", "message"]
   branch: "main"
   commitMessage: "Nuevo comentario"
   filename: "comment-{@timestamp}"
   format: "yaml"
   moderation: false
-  path: "comments/"
+  path: "data/comments/{options.slug}"
   requiredFields: ["message"]
   transforms:
     message: "trim"
