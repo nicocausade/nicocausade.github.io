@@ -1,0 +1,11 @@
+comments:
+  allowedFields: ["name", "message"]
+  branch: "main"
+  commitMessage: "Nuevo comentario"
+  filename: "comment-{@timestamp}"
+  format: "yaml"
+  moderation: false
+  path: "data/comments/{options.slug}"
+  requiredFields: ["message"]
+  transforms:
+    message: "trim"
